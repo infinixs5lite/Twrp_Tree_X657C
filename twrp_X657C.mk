@@ -16,3 +16,12 @@ PRODUCT_NAME := twrp_X657C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X657C
 PRODUCT_MANUFACTURER := infinix
+
+PRODUCT_SHIPPING_API_LEVEL := 29
+
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock
