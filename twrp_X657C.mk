@@ -19,7 +19,7 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X657C
-PRODUCT_NAME := omni_X657C
+PRODUCT_NAME := twrp_X657C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X657C
 PRODUCT_MANUFACTURER := infinix
